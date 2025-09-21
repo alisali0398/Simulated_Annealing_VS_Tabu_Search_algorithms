@@ -22,5 +22,5 @@ Geometrical cooling schedule T(k) = t<sub>0</sub> * α<sup>k</sup>, where t<sub>
 * Stopping criterium:
 The process continues until the temperature drops below T<sub>min</sub>= 0.001
 
-*Number of iterations at specific temperature: 
+* Number of iterations at specific temperature: 
 The algorithm performs one solution update per temperature step. 
