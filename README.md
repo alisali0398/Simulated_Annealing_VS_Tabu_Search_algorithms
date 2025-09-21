@@ -12,6 +12,8 @@ The distance matrix is provided below. This problem is symmetric so the distance
 
 Since the tour must start at the node 1 and visit each of the remaining 9 nodes exactly once, the total number of possible routes is 9! = 362880 permutations. As it is almost impossible to evaluate all permutations manually, a Python code was written to perform the exhaustive search. 
 
+EE code can be found in a separate file.
+
 ## Special modification made and the algorithmic parameters (SA): 
 
 * Cooling schedule:
@@ -69,8 +71,12 @@ Relative deviation is 0%, the result is the same as for EE.
 
 TS fully explored the solution space and successfully escape local minimum, ultimately discovering the globally optimal tour. Although the TS required 18501 evaluations, algorithm achieved the best result and accuracy. 
 
+TS code can be found in a separate file.
+
 ## Comparison between EE vs SA vs TS 
 Exhaustive Enumeration (EE) guarantees the global optimum solution (cost 592) but requires a high number of evaluations — 362880. Simulated Annealing (SA) found 
 a near optimal solution (cost 612) with only 2758 evaluations, resulting in a 3.38% deviation from the optimum. Tabu Search (TS) matched the global optimum (cost 
 592) using 18501 evaluations, leveraging memory based strategies to escape local minima. Overall, EE is exact but computationally expensive, SA is efficient but 
 approximate, and TS combines high accuracy with strong performance, making it the most balanced approach. 
+
+Comparison code can be found in a separate file.
