@@ -25,3 +25,15 @@ The process continues until the temperature drops below T<sub>min</sub>= 0.001
 * Number of iterations at specific temperature: 
 
 The algorithm performs one solution update per temperature step. 
+
+## How many times was the objective function (total distance computation) evaluated to find the optimal solution? 
+
+The objective function was evaluated 2758 times. Each evaluation corresponds to a proposed new solution during the optimization process. 
+
+## How close is your result compared to the global optimal solution? 
+The best solution found by SA has a total cost of 612, while the global optimal solution found by EE is 592. 
+
+Difference from optimum: 612 − 592 = 20
+
+Relative deviation: 20/592 ∗ 100 = 3.38% above the global optimum 
+
