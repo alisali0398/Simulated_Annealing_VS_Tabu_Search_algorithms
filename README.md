@@ -1,5 +1,5 @@
-# Simulated_Annealing_algorithm
-SA test case
+# Simulated_Annealing_VS_Tabu_Search_algorithms
+SA VS TS test case
 
 The purpose of this case study is to solve a 10-node Travel Salesman Problem (TSP): find the shortest tour which starts from node 1, visits 
 each node once, and returns to node 1 with the shortest distance.
