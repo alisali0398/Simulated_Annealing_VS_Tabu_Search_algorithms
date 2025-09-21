@@ -12,3 +12,9 @@ The distance matrix is provided below. This problem is symmetric so the distance
 
 Since the tour must start at the node 1 and visit each of the remaining 9 nodes exactly once, the total number of possible routes is 9! = 362880 permutations. As it is 
 almost impossible to evaluate all permutations manually, a Python code was written to perform the exhaustive search. 
+
+## Special modification made and the algorithmic parameters (SA): 
+
+* Cooling schedule:
+
+Geometrical cooling schedule T(k) = t<sub>0</sub> * α<sup>k</sup>, where t<sub>0</sub> = 1000 and α = 0.995
